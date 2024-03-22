@@ -23,7 +23,7 @@ t = np.linspace(-3, 5, 1000)
 plt.hist(uniform_data, bins=1, density=True, alpha=0.6, color='g', label='Histogram próbki jednostajnej')
 
 # Rysowanie funkcji gęstości rozkładu normalnego
-plt.plot(t, stats.norm.pdf(t, mu, sigma), 'k-', lw=2, label='Rozkład normalny ($\mu=1$, $\sigma=1$)')
+plt.plot(t, stats.norm.pdf(t, mu, sigma), 'k-', lw=2, label='Rozkład normalny')
 
 # Dodanie legendy i tytułu
 plt.legend()
